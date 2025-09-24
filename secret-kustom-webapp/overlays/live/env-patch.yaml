@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: secret-sample-app
+spec:
+  template:
+    spec:
+      containers:
+        - name: secret-sample-app
+          env:
+            - name: MY-ENV
+              value: "Mooo"

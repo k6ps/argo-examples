@@ -1,0 +1,8 @@
+resources:
+  - ../../base
+
+patches:
+  - path: env-patch.yaml
+    target:
+      kind: Deployment
+      name: secret-sample-app
