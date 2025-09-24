@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: secret-sample-app
-          image: secret-sample-app:latest
+          image: registry.digitalocean.com/k6ps-container-registry/secret-sample-app:latest
           ports:
             - containerPort: 8080
           env:
