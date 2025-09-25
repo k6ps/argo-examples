@@ -1,5 +1,6 @@
 resources:
   - ../../base
+  - secret.yaml
 
 patches:
   - path: env-patch.yaml
