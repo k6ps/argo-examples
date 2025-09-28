@@ -20,6 +20,11 @@ spec:
           env:
             - name: MY-ENV
               value: "" # Patched in overlays
+            - name: MY-FIRST-SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: my-first-secret
+                  key: MY-FIRST-SECRET
           resources:
             requests:
               cpu: "100m"

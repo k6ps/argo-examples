@@ -10,8 +10,3 @@ spec:
           env:
             - name: MY-ENV
               value: "Buuu"
-            - name: MY-FIRST-SECRET
-              valueFrom:
-                secretKeyRef:
-                  name: my-first-secret
-                  key: MY-FIRST-SECRET
