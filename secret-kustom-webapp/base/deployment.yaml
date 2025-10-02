@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: secret-sample-app
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: secret-sample-app
